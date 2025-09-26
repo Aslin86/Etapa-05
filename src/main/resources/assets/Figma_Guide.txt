@@ -1,0 +1,7 @@
+Figma Guide - Recomendações
+
+- Crie um arquivo com frames para Desktop (1440x900).
+- Organize components: Buttons, Inputs, TableRow, Modals.
+- Tokens de design: cores, tipografia (Roboto), espaçamentos.
+- Exporte assets: icons (SVG), images (PNG).
+- Compartilhe link com stakeholders para revisão.

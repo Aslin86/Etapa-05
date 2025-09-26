@@ -1,0 +1,22 @@
+UI/UX Notes - Sistema de Biblioteca
+
+Fluxo principal do usuário (bibliotecário):
+1. Acessa Dashboard - vê lista de livros e busca.
+2. Clica em 'Cadastrar Livro' -> formulário -> salva.
+3. Seleciona usuário -> registra empréstimo -> confirma.
+4. Consulta histórico de empréstimos e devoluções.
+
+Elementos importantes:
+- Barra superior com logo e ações rápidas.
+- Área principal com tabela (colunas: ID, Título, Autor, Ano, ISBN, Disponibilidade, Ações).
+- Sidebar ou barra de ações para 'Cadastrar Livro', 'Cadastrar Usuário', 'Emprestar', 'Devolver'.
+
+Interações planejadas:
+- Confirmação para ações críticas (emprestar/devolver).
+- Mensagens de feedback (toast/snackbar) para sucesso/erro.
+- Paginação ou scroll infinito para lista de livros.
+
+Acessibilidade detalhada:
+- Labels e tamanhos de alvo (target) para clique: mínimo 44x44 px.
+- Indicadores visuais (não só cor) para estados (disabled, focus, error).
+- Leitura por leitores de tela: fornecer textos alternativos às imagens e ícones.
